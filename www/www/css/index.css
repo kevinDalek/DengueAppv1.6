@@ -1,0 +1,316 @@
+p{
+  text-align: justify;
+}
+
+.myHeaderContainer{
+    
+    position: relative;
+    width: 390px;
+    margin: -19px 65px 0 65px;
+    height: 53px;
+    
+}
+.myHeaderContainer #mylogo{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 3px;
+    
+}
+.myHeaderContainer h4{
+    top: 15px;
+    position: relative;
+}
+
+ul li .menuImg{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 40px;
+    float: left;
+    margin-left: 3px;
+    margin-top: 3px;
+
+}
+
+/********************SlideShow1 Part************************************/
+
+/*************Symptoms page cotent********************/
+.txtsympt{
+  text-align: center;
+  font-size: 14px;
+  margin-bottom:3px;
+  font-weight: bold;
+}
+
+.responsiveSympt{
+  width: 90%;
+  height: 150px;
+  text-align: center;
+
+                }
+
+.mySlides {display: none;}
+.slideshow-container img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/********************END SlideShow Part************************************/
+/********************SlideShow1 Part************************************/
+
+
+
+.mySlides1 {display: none;}
+.slideshow-container1 img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container1 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot1 {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+
+/********************END SlideShow Part************************************/
+/********************SlideShow1 Part************************************/
+
+
+
+.mySlides2 {display: none;}
+.slideshow-container2 img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container2 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot2 {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+
+/********************END SlideShow Part************************************/
+.responsive {
+  width: 100%;
+  height: 250px;
+ 
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle
+
+}
+
+/********************Newsfeed Part************************************/
+.newsheader{
+  font-size:12px;
+  font-weight: bold;
+  white-space:normal;
+
+}
+.newsImg{
+  height: 90px;
+  width: 110px;
+  margin-right: 2px;
+}
+
+.newsD{
+  color: red;
+  font-size: 11px;
+}
+.fullHeader{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.imgFullNews{
+  width: 140px;
+  height: 130px;
+  margin-right:10px;
+  margin-bottom: 5px;
+}
+.fullContent{
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 14px;
+
+
+}
+/********************End of Newsfeed Part************************************/
+/**Emergency Contact**/
+table {
+    width:100%;
+}
+table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+    font-size: 10px;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color:#fff;
+}
+table#t01 th    {
+    background-color: black;
+    color: white;
+}
+/*********************AI PART*********************/
+#ai-img{
+  width: 150px;
+  height: 120px;
+  text-align: center;
+  border-radius: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 5px;
+}
+#lblAi{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.spoken-response {
+  max-height: 0;
+  font-family: "Titillium Web", Arial, sans-serif;
+  overflow: hidden;
+  -webkit-transition: all 0.35s ease-in;
+}
+
+.spoken-response.is-active {
+  max-height: 400px;
+}
+.spoken-response__text {
+  background-color: #040E23;
+  color: #7584A2;
+  padding: 1em;
+}
+/*********************END OF AI PART*********************/
+/*map style*/
+
+#titlemap{
+        text-align: center;
+        font-style: Monospace;
+        font-weight: bold;
+        font-size: 20px;
+          }
+  .geocodee {
+      position:absolute;
+      z-index:1;
+      background-color: transparent;
+      width:50%;
+      margin-left:-30px;
+      margin-top: -10px;
+      top:50px;
+          }
+/* Landscape */
+@media (orientation: landscape) {
+
+
+.myHeaderContainer{
+    
+    margin: -19px 190px 0 190px;
+
+    
+}
+.myHeaderContainer h4{
+    
+    font-size: 17px;
+
+    
+}
+
+
+
+}
